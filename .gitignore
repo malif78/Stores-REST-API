@@ -1,5 +1,0 @@
-__pycache__/
-*.pyc
-create_tables.py
-data.db
-.pylint.d/
