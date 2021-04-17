@@ -8,7 +8,6 @@ Created on Fri Apr  9 16:58:53 2021
 from models.user import UserModel
 from werkzeug.security import safe_str_cmp
 
-
 def authenticate(username, password):
     user = UserModel.find_by_username(username)
     if user and safe_str_cmp(user.password,password):

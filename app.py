@@ -4,7 +4,6 @@ Created on Wed Apr  7 00:04:57 2021
 
 @author: moham
 """
-
 from flask import Flask
 from flask_jwt import JWT
 from flask_restful import Api
