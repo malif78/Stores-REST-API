@@ -11,7 +11,6 @@ from security import authenticate, identity
 from resources.user import UserRegister
 from resources.item import Item, Item_list
 from resources.store import Store, Store_list
-
 from db import db
 
 app = Flask(__name__)

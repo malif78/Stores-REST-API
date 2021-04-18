@@ -7,6 +7,7 @@ Created on Sun Apr 11 15:43:08 2021
 import sqlite3
 from db import db
 
+
 class UserModel(db.Model):
     __tablename__ = 'users'
     id = db.Column(db.Integer,primary_key=True)

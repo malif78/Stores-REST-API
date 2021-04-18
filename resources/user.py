@@ -8,7 +8,8 @@ Created on Fri Apr  9 17:13:55 2021
 import sqlite3
 from flask_restful import Resource, reqparse
 from models.user import UserModel
-        
+       
+ 
 class UserRegister(Resource):
     
     parser = reqparse.RequestParser()

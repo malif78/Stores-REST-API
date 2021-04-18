@@ -5,7 +5,6 @@ Created on Sun Apr 11 15:55:33 2021
 @author: moham
 """
 
-
 #import sqlite3
 from db import db
 
